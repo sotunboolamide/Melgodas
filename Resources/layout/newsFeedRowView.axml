@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:paddingTop="8dp">
+	<ImageView
+	android:id="@+id/newsImage"
+		android:src="@drawable/logo"
+
+	android:layout_width="50dp"
+	android:layout_height="50dp"
+	android:paddingLeft="10dp"
+	android:paddingRight="10dp"/>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="20dip">
+		 <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/newsTitle"
+			android:text="Hey"
+            android:textSize="16dp"
+            android:gravity="left"
+            android:layout_alignParentLeft="true"
+            android:textColor="@android:color/black" />
+        <TextView
+               android:id="@+id/newsDescription"  
+			android:layout_width="200dp"
+			android:text="Hey"
+            android:layout_height="wrap_content"
+			android:paddingTop="20dp"
+			android:textSize="12dp"
+            android:gravity="left"
+            android:layout_alignParentLeft="true"
+            android:textColor="@android:color/black" />
+		</RelativeLayout>
+</LinearLayout>
